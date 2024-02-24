@@ -1,0 +1,111 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-color: #09090E;
+}
+.home-text {
+  width: 469px;
+  height: 76px;
+  font-size: 500%;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: 15%;
+  font-weight: 800;
+  margin-left: 5%;
+}
+.home-text1 {
+  color: #efeef2;
+}
+.home-text2 {
+  color: #4642c1;
+}
+.home-text3 {
+  color: rgb(239, 238, 242);
+  font-size: 150%;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: 1%;
+  font-weight: 600;
+  margin-left: 5%;
+}
+.home-container1 {
+  flex: 0 0 auto;
+  width: 244px;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  margin-top: 10%;
+  align-items: flex-start;
+  margin-left: 5%;
+  justify-content: center;
+}
+.home-link {
+  display: contents;
+}
+.home-text4 {
+  color: #efeef2;
+  padding: 20px;
+  font-size: 150%;
+  align-self: flex-start;
+  font-style: normal;
+  font-weight: 600;
+  margin-left: 5%;
+  padding-top: 15px;
+  padding-left: 15px;
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: 15px;
+  padding-bottom: 15px;
+  text-decoration: none;
+  background-color: #312E6E;
+}
+.home-navlink {
+  display: contents;
+}
+.home-text5 {
+  color: rgb(239, 238, 242);
+  padding: 20px;
+  font-size: 150%;
+  align-self: flex-start;
+  font-style: normal;
+  font-weight: 600;
+  margin-left: 5%;
+  padding-top: 15px;
+  padding-left: 15px;
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: 15px;
+  padding-bottom: 15px;
+  text-decoration: none;
+  background-color: #9F9DCC;
+}
+.home-image {
+  right: 10%;
+  width: 369px;
+  bottom: 0px;
+  height: 811px;
+  position: absolute;
+  align-self: flex-end;
+  object-fit: cover;
+}
+@media(max-width: 767px) {
+  .home-image {
+    right: 0px;
+    width: 40%;
+    display: none;
+  }
+}
+@media(max-width: 479px) {
+  .home-text {
+    width: 443px;
+    font-size: 450%;
+  }
+  .home-text4 {
+    margin-left: 0%;
+  }
+  .home-image {
+    display: none;
+  }
+}

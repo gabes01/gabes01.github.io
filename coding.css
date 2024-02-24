@@ -1,0 +1,28 @@
+.coding-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-color: #09090E;
+}
+.coding-navlink {
+  display: contents;
+}
+.coding-text {
+  color: rgb(239, 238, 242);
+  padding: 20px;
+  font-size: 150%;
+  align-self: center;
+  font-style: normal;
+  margin-top: 35%;
+  font-weight: 600;
+  padding-top: 15px;
+  padding-left: 15px;
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: 15px;
+  padding-bottom: 15px;
+  text-decoration: none;
+  background-color: rgb(159, 157, 204);
+}

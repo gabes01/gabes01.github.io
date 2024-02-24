@@ -1,0 +1,121 @@
+.about-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #09090E;
+}
+.about-text {
+  color: rgb(239, 238, 242);
+  font-size: 400%;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+.about-text01 {
+  color: rgb(255, 255, 255);
+  width: 35%;
+  margin-top: 15px;
+  margin-left: 5%;
+}
+.about-navlink {
+  display: contents;
+}
+.about-text28 {
+  top: 5%;
+  color: rgb(239, 238, 242);
+  right: 5%;
+  padding: 20px;
+  position: absolute;
+  font-size: 150%;
+  align-self: flex-start;
+  font-style: normal;
+  font-weight: 600;
+  padding-top: 15px;
+  padding-left: 15px;
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: 15px;
+  padding-bottom: 15px;
+  text-decoration: none;
+  background-color: rgb(159, 157, 204);
+}
+.about-navlink1 {
+  display: contents;
+}
+.about-text29 {
+  color: rgb(239, 238, 242);
+  padding: 20px;
+  font-size: 150%;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: 5px;
+  font-weight: 600;
+  margin-left: 5%;
+  padding-top: 15px;
+  padding-left: 15px;
+  border-radius: var(--dl-radius-radius-radius8);
+  margin-bottom: 5px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  text-decoration: none;
+  background-color: rgb(49, 46, 110);
+}
+.about-navlink2 {
+  display: contents;
+}
+.about-text30 {
+  color: rgb(239, 238, 242);
+  padding: 20px;
+  font-size: 150%;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: 5px;
+  font-weight: 600;
+  margin-left: 5%;
+  padding-top: 15px;
+  padding-left: 15px;
+  border-radius: var(--dl-radius-radius-radius8);
+  margin-bottom: 5px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  text-decoration: none;
+  background-color: rgb(49, 46, 110);
+}
+.about-navlink3 {
+  display: contents;
+}
+.about-text31 {
+  color: rgb(239, 238, 242);
+  padding: 20px;
+  font-size: 150%;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: 5px;
+  font-weight: 600;
+  margin-left: 5%;
+  padding-top: 15px;
+  padding-left: 15px;
+  border-radius: var(--dl-radius-radius-radius8);
+  margin-bottom: 5px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  text-decoration: none;
+  background-color: rgb(49, 46, 110);
+}
+@media(max-width: 479px) {
+  .about-text01 {
+    width: 60%;
+  }
+  .about-text29 {
+    margin-left: 5%;
+  }
+  .about-text30 {
+    margin-left: 5%;
+  }
+  .about-text31 {
+    margin-left: 5%;
+    margin-bottom: 15px;
+  }
+}
